@@ -8,43 +8,50 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, React, Wynisco, Bootcamp, Web, Dev">
     <meta name="author" content="Avinash Murugappan">
     <title>Wynisco Bootcamp Class Website</title>
+    <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
-    <center>
+    <div class="navbar">  
+        <ul>
+            <li><a class="active" href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <section  class="header-section"> 
     <header>
     <h1>Wynisco Web Developer Bootcamp</h1>
     <p></p>
     </header>
-    </center>
+    
     <hr>
-    <center>
-    <caption>
+    
+    <caption >
         Wynisco's mission is to get you placed rapidly, sometimes as quick as under 60 days.<br> We are able to optimize these factors. We have perfected the formula over the years. <br>First step is to apply for the intensive bootcamp.<br/>
         If selected we will get you employment ready in 40 to 45 days .
     </caption>
-    </center>
+    
+    </section>
     <hr>
-<br>
         <section>
+        
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rmt3TPbi3Os" title="YouTube video player"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <img src="https://res.cloudinary.com/davc0hf56/image/upload/v1612530143/xrzczs8v5ekd5iibboko.png" alt="Wynisco Logo" width="100" height="100" class="logo">
             </div>
             <br>
-            <div>
-                <img src="https://res.cloudinary.com/davc0hf56/image/upload/v1612530143/xrzczs8v5ekd5iibboko.png" alt="Wynisco Logo" width="165" height="165" >
-            </div>
-            <br>
-            <div>
-                <img src="./assets/logo.png" alt="Avi Logo" width="165" height="165">
+
+        </section>
+        <section>
+            <div class="laptop-picture">
+                <button class="button"> Start your journey here</button>
             </div>
 
         </section>
 
-<br>
 
-    <section>
+    <section class="section2">
         <table border cellspacing="3" cellpadding="3">
     <tbody>
     <tr >
@@ -55,9 +62,9 @@
     </tr>
     <tr>
       <td><p title="sachin@wynisco.com" >Sachin Rajgire</p></td>
-      <td><a href="mailto:sachin@wynisco.com">sachin@wynisco.com </a></td>
+      <td><a href="mailto:sachin@wynisco.com" class="first-link">sachin@wynisco.com </a></td>
       <td><a type="tel">7328740188</a></td>
-      <td><a  target="_blank" href="https://reaction-sachin-rajgire.netlify.app/">https://reaction-sachin-rajgire.netlify.app/</a></td>
+      <td><a  target="_blank" href="https://reaction-sachin-rajgire.netlify.app/" class="first-link">https://reaction-sachin-rajgire.netlify.app/</a></td>
     </tr>
     <tr>
         <td>
@@ -81,9 +88,9 @@
         </table>
     </section>
 
-<br>
 
-    <section>
+<section class="section3">
+        <div> 
 <h2>Course Curriculum</h2>
 <ul>
   <li>Using Git as version control
@@ -102,10 +109,10 @@
 </li>
 <li>Setting VSCode and its extension </li>
 </ul>
-    </section>
-<br>
-    <section>
-        <div>
+</div>
+</section>
+    <section class="section4">
+        <div >
             <h2>Contact Form</h2>
             <form action="">
                 <label for="Name">Name:</label>
